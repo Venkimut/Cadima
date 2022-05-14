@@ -25,4 +25,8 @@ INSERT INTO `task_table` (`row_id`, `guid`, `name`) VALUES
 ```
 
 # Programming
-## 1. Please refer the [programming.js](https://github.com/Venkimut/Cadima/blob/master/programming.js)
+
+## 1. 1.	Given a string of digits from [1-5], return combinations that the number would represent. The following is the mapping of numbers 
+```
+Please refer the [programming.js](https://github.com/Venkimut/Cadima/blob/master/programming.js)
+```
