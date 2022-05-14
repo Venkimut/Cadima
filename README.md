@@ -1,7 +1,7 @@
 # Cadima
 
 
-# Database
+# I.Database
 
 ## 1.Table Creation and data dump 
 ```
@@ -24,8 +24,8 @@ INSERT INTO `task_table` (`row_id`, `guid`, `name`) VALUES
 > DELETE from task_table where guid in (select guid from task_table group by guid HAVING count(guid) > 2);
 ```
 
-# Programming
+# II.Programming
 
-## 1. 1.	Given a string of digits from [1-5], return combinations that the number would represent. The following is the mapping of numbers 
+## 1. Given a string of digits from [1-5], return combinations that the number would represent. The following is the mapping of numbers 
 
 Please refer the [programming.js](https://github.com/Venkimut/Cadima/blob/master/programming.js)
