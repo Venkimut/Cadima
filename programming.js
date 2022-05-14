@@ -8,6 +8,7 @@
        "5": "wxyz"
    }
 
+
    function letterCombinations(combination = "") {
        try {
            //Input convert to sting
@@ -76,3 +77,5 @@
            console.warn(e);
        }
    }
+
+   letterCombinations("23");
